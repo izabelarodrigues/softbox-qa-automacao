@@ -3,7 +3,6 @@ var loginPage = require('./../../src/pages/login.page');
 var boardListPage = require('./../../src/pages/boardList.page');
 var boardPage = require('./../../src/pages/board.page');
 
-
 describe('Boards Trello', function () {
     it("Validando a criação de um novo board", function () {
         loginPage.open();
